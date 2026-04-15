@@ -1,0 +1,540 @@
+{
+  "summary": {
+    "k=3": {
+      "avg_recall": 1.0,
+      "avg_precision": 0.9667,
+      "avg_mrr": 1.0,
+      "avg_hit_rate": 1.0,
+      "num_queries": 20
+    },
+    "k=5": {
+      "avg_recall": 1.0,
+      "avg_precision": 0.88,
+      "avg_mrr": 1.0,
+      "avg_hit_rate": 1.0,
+      "num_queries": 20
+    }
+  },
+  "per_query": [
+    {
+      "query_id": "q1",
+      "query": "What is the maximum number of annual leave days an employee can carry forward?",
+      "expected_source": "leave_policy.txt",
+      "retrieved_sources": [
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q2",
+      "query": "How many days of sick leave are employees entitled to per year?",
+      "expected_source": "leave_policy.txt",
+      "retrieved_sources": [
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q3",
+      "query": "When is a medical certificate required for sick leave?",
+      "expected_source": "leave_policy.txt",
+      "retrieved_sources": [
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q4",
+      "query": "How much internet expense does the company reimburse for remote employees?",
+      "expected_source": "remote_work_policy.txt",
+      "retrieved_sources": [
+        "remote_work_policy.txt",
+        "remote_work_policy.txt",
+        "remote_work_policy.txt",
+        "remote_work_policy.txt",
+        "remote_work_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q5",
+      "query": "What are the core working hours for remote employees?",
+      "expected_source": "remote_work_policy.txt",
+      "retrieved_sources": [
+        "remote_work_policy.txt",
+        "remote_work_policy.txt",
+        "remote_work_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 0.6,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q6",
+      "query": "Is it allowed to use public Wi-Fi while working remotely?",
+      "expected_source": "remote_work_policy.txt",
+      "retrieved_sources": [
+        "remote_work_policy.txt",
+        "remote_work_policy.txt",
+        "remote_work_policy.txt",
+        "remote_work_policy.txt",
+        "remote_work_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q7",
+      "query": "What information is prohibited from being entered into external AI systems?",
+      "expected_source": "ai_policy.txt",
+      "retrieved_sources": [
+        "ai_policy.txt",
+        "ai_policy.txt",
+        "ai_policy.txt",
+        "ai_policy.txt",
+        "ai_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q8",
+      "query": "Who is responsible for reviewing AI-generated content before official use?",
+      "expected_source": "ai_policy.txt",
+      "retrieved_sources": [
+        "ai_policy.txt",
+        "ai_policy.txt",
+        "ai_policy.txt",
+        "ai_policy.txt",
+        "ai_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q9",
+      "query": "What encryption standard must be used for confidential data at rest?",
+      "expected_source": "data_security_policy.txt",
+      "retrieved_sources": [
+        "data_security_policy.txt",
+        "remote_work_policy.txt",
+        "data_security_policy.txt",
+        "data_security_policy.txt",
+        "ai_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 0.6667,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 0.6,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q10",
+      "query": "How often must passwords be changed according to the password policy?",
+      "expected_source": "data_security_policy.txt",
+      "retrieved_sources": [
+        "data_security_policy.txt",
+        "data_security_policy.txt",
+        "data_security_policy.txt",
+        "ai_policy.txt",
+        "remote_work_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 0.6,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q11",
+      "query": "What is the minimum password length required by the security policy?",
+      "expected_source": "data_security_policy.txt",
+      "retrieved_sources": [
+        "data_security_policy.txt",
+        "data_security_policy.txt",
+        "data_security_policy.txt",
+        "remote_work_policy.txt",
+        "data_security_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 0.8,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q12",
+      "query": "How many days of maternity leave is a female employee entitled to?",
+      "expected_source": "leave_policy.txt",
+      "retrieved_sources": [
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q13",
+      "query": "How many days of paternity leave does the company provide?",
+      "expected_source": "leave_policy.txt",
+      "retrieved_sources": [
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q14",
+      "query": "What happens if an employee violates the data security policy?",
+      "expected_source": "data_security_policy.txt",
+      "retrieved_sources": [
+        "data_security_policy.txt",
+        "data_security_policy.txt",
+        "remote_work_policy.txt",
+        "ai_policy.txt",
+        "ai_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 0.6667,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 0.4,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q15",
+      "query": "How should a suspected data breach be reported?",
+      "expected_source": "data_security_policy.txt",
+      "retrieved_sources": [
+        "data_security_policy.txt",
+        "data_security_policy.txt",
+        "data_security_policy.txt",
+        "ai_policy.txt",
+        "data_security_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 0.8,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q16",
+      "query": "What is the eligibility criteria for remote work?",
+      "expected_source": "remote_work_policy.txt",
+      "retrieved_sources": [
+        "remote_work_policy.txt",
+        "remote_work_policy.txt",
+        "remote_work_policy.txt",
+        "remote_work_policy.txt",
+        "remote_work_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q17",
+      "query": "How many casual leave days are employees entitled to?",
+      "expected_source": "leave_policy.txt",
+      "retrieved_sources": [
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q18",
+      "query": "What is the maximum leave that can be encashed at the time of resignation?",
+      "expected_source": "leave_policy.txt",
+      "retrieved_sources": [
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt",
+        "leave_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q19",
+      "query": "What must vendors sign before accessing organizational data?",
+      "expected_source": "data_security_policy.txt",
+      "retrieved_sources": [
+        "data_security_policy.txt",
+        "data_security_policy.txt",
+        "data_security_policy.txt",
+        "data_security_policy.txt",
+        "data_security_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    },
+    {
+      "query_id": "q20",
+      "query": "How frequently are access rights to confidential data reviewed?",
+      "expected_source": "data_security_policy.txt",
+      "retrieved_sources": [
+        "data_security_policy.txt",
+        "data_security_policy.txt",
+        "data_security_policy.txt",
+        "remote_work_policy.txt",
+        "data_security_policy.txt"
+      ],
+      "scores": {
+        "k=3": {
+          "recall": 1,
+          "precision": 1.0,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        },
+        "k=5": {
+          "recall": 1,
+          "precision": 0.8,
+          "reciprocal_rank": 1.0,
+          "hit_rate": 1
+        }
+      }
+    }
+  ]
+}

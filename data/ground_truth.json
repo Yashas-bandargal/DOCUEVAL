@@ -1,0 +1,182 @@
+[
+  {
+    "id": "q1",
+    "query": "What is the maximum number of annual leave days an employee can carry forward?",
+    "expected_answer": "Employees can carry forward up to 5 days of unused annual leave into the next calendar year.",
+    "relevant_source": "leave_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q2",
+    "query": "How many days of sick leave are employees entitled to per year?",
+    "expected_answer": "Employees are entitled to 12 days of paid sick leave per year.",
+    "relevant_source": "leave_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q3",
+    "query": "When is a medical certificate required for sick leave?",
+    "expected_answer": "A medical certificate is required for sick leave exceeding 3 consecutive days.",
+    "relevant_source": "leave_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q4",
+    "query": "How much internet expense does the company reimburse for remote employees?",
+    "expected_answer": "The company reimburses up to 50 dollars per month for internet expenses upon submission of a valid invoice.",
+    "relevant_source": "remote_work_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q5",
+    "query": "What are the core working hours for remote employees?",
+    "expected_answer": "Remote employees must remain accessible during core hours of 10 AM to 4 PM in their local time zone.",
+    "relevant_source": "remote_work_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q6",
+    "query": "Is it allowed to use public Wi-Fi while working remotely?",
+    "expected_answer": "Use of public Wi-Fi is prohibited unless a VPN is active.",
+    "relevant_source": "remote_work_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q7",
+    "query": "What information is prohibited from being entered into external AI systems?",
+    "expected_answer": "Employees must not input confidential, proprietary, or personally identifiable information (PII) into any external AI system.",
+    "relevant_source": "ai_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q8",
+    "query": "Who is responsible for reviewing AI-generated content before official use?",
+    "expected_answer": "Employees are responsible for reviewing, verifying, and approving AI-generated content before it is used in official communications, reports, or decisions.",
+    "relevant_source": "ai_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q9",
+    "query": "What encryption standard must be used for confidential data at rest?",
+    "expected_answer": "Confidential data must be encrypted at rest using AES-256.",
+    "relevant_source": "data_security_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q10",
+    "query": "How often must passwords be changed according to the password policy?",
+    "expected_answer": "Passwords must be changed every 90 days.",
+    "relevant_source": "data_security_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q11",
+    "query": "What is the minimum password length required by the security policy?",
+    "expected_answer": "All system passwords must be at least 12 characters long.",
+    "relevant_source": "data_security_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q12",
+    "query": "How many days of maternity leave is a female employee entitled to?",
+    "expected_answer": "Female employees are entitled to 26 weeks of paid maternity leave.",
+    "relevant_source": "leave_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q13",
+    "query": "How many days of paternity leave does the company provide?",
+    "expected_answer": "Male employees are entitled to 15 days of paid paternity leave, to be availed within 6 months of the child's birth.",
+    "relevant_source": "leave_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q14",
+    "query": "What happens if an employee violates the data security policy?",
+    "expected_answer": "Violation may result in disciplinary action up to and including termination, and may involve legal proceedings in serious cases.",
+    "relevant_source": "data_security_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q15",
+    "query": "How should a suspected data breach be reported?",
+    "expected_answer": "Any suspected data breach must be reported immediately to the IT security team at security@company.com, and they will respond within 24 hours.",
+    "relevant_source": "data_security_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q16",
+    "query": "What is the eligibility criteria for remote work?",
+    "expected_answer": "Remote work is available to full-time employees who have completed at least six months of employment and whose roles are suitable for remote execution.",
+    "relevant_source": "remote_work_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q17",
+    "query": "How many casual leave days are employees entitled to?",
+    "expected_answer": "Employees are entitled to 6 days of casual leave per year.",
+    "relevant_source": "leave_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q18",
+    "query": "What is the maximum leave that can be encashed at the time of resignation?",
+    "expected_answer": "Annual leave can be encashed up to a maximum of 30 days at the time of resignation or retirement.",
+    "relevant_source": "leave_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q19",
+    "query": "What must vendors sign before accessing organizational data?",
+    "expected_answer": "Vendors must sign a Data Processing Agreement before accessing organizational data.",
+    "relevant_source": "data_security_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "q20",
+    "query": "How frequently are access rights to confidential data reviewed?",
+    "expected_answer": "Access rights must be reviewed every 6 months.",
+    "relevant_source": "data_security_policy.txt",
+    "validated": true
+  },
+  {
+    "id": "oos1",
+    "query": "What is the company's policy on stock options and equity grants?",
+    "expected_answer": null,
+    "relevant_source": null,
+    "validated": true,
+    "out_of_scope": true
+  },
+  {
+    "id": "oos2",
+    "query": "How does the company calculate employee bonuses?",
+    "expected_answer": null,
+    "relevant_source": null,
+    "validated": true,
+    "out_of_scope": true
+  },
+  {
+    "id": "oos3",
+    "query": "What is the office dress code policy?",
+    "expected_answer": null,
+    "relevant_source": null,
+    "validated": true,
+    "out_of_scope": true
+  },
+  {
+    "id": "oos4",
+    "query": "How do I apply for an internal job transfer?",
+    "expected_answer": null,
+    "relevant_source": null,
+    "validated": true,
+    "out_of_scope": true
+  },
+  {
+    "id": "oos5",
+    "query": "What is the travel reimbursement policy for client visits?",
+    "expected_answer": null,
+    "relevant_source": null,
+    "validated": true,
+    "out_of_scope": true
+  }
+]

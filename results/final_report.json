@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-04-08T17:59:58.086431",
+  "retrieval": {
+    "k=3": {
+      "avg_recall": 1.0,
+      "avg_precision": 0.9667,
+      "avg_mrr": 1.0,
+      "avg_hit_rate": 1.0,
+      "num_queries": 20
+    },
+    "k=5": {
+      "avg_recall": 1.0,
+      "avg_precision": 0.88,
+      "avg_mrr": 1.0,
+      "avg_hit_rate": 1.0,
+      "num_queries": 20
+    }
+  },
+  "thresholds_used": {
+    "recall_at_5": 0.7,
+    "mrr_at_5": 0.6,
+    "hit_rate_at_5": 0.75,
+    "faithfulness": 0.8,
+    "answer_relevance": 3.5,
+    "rouge_l": 0.25,
+    "refusal_rate": 0.6
+  },
+  "overall": {
+    "passed": 3,
+    "total": 3
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "config_A": {
+    "label": "Small chunks (300), K=3",
+    "chunk_size": 300,
+    "k": 3,
+    "scores": {
+      "avg_recall": 1.0,
+      "avg_mrr": 1.0,
+      "avg_hit_rate": 1.0,
+      "num_queries": 20
+    }
+  },
+  "config_B": {
+    "label": "Large chunks (500), K=5",
+    "chunk_size": 500,
+    "k": 5,
+    "scores": {
+      "avg_recall": 1.0,
+      "avg_mrr": 1.0,
+      "avg_hit_rate": 1.0,
+      "num_queries": 20
+    }
+  }
+}

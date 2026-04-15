@@ -1,0 +1,28 @@
+Artificial Intelligence Usage Policy
+
+1. Purpose
+This policy outlines the responsible use of Artificial Intelligence (AI) tools within the organization. It aims to ensure that AI is used ethically, securely, and in alignment with organizational goals.
+
+2. Scope
+This policy applies to all employees, contractors, and third-party vendors who use AI tools on behalf of the organization.
+
+3. Approved AI Tools
+Employees may only use AI tools that have been approved by the IT and Legal departments. Approved tools include internal AI assistants, approved language models, and licensed software with AI capabilities.
+
+4. Data Privacy
+Employees must not input confidential, proprietary, or personally identifiable information (PII) into any external AI system. All AI interactions involving sensitive data must use the organization's secure internal AI platform.
+
+5. Accountability
+Employees are responsible for any output generated using AI tools on their behalf. AI-generated content must be reviewed, verified, and approved before being used in official communications, reports, or decisions.
+
+6. Prohibited Uses
+The following uses of AI are strictly prohibited:
+- Generating misleading or false information
+- Automating decisions that require human judgment in sensitive areas such as HR, legal, or medical
+- Using AI tools to bypass security controls or access unauthorized data
+
+7. Compliance and Monitoring
+The IT department will monitor AI tool usage to ensure compliance with this policy. Violations may result in disciplinary action, including termination.
+
+8. Updates
+This policy will be reviewed and updated annually or when significant changes in AI technology or regulation occur.
